@@ -52,7 +52,7 @@ The cells in the Jupyter notebook have functions useful for visualizing star pos
 The coordinates of the star in question or the alignment of the tracker can be edited in their respective cells.
 Some cells create Matplotlib animations in the Jupyter notebook, such as the one below:
 
-![tracker_animation](https://github.com/lancemathias/rotation/images/tracking.gif)
+![tracker_animation](https://github.com/lancemathias/rotation/tree/main/images/tracking.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
