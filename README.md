@@ -14,6 +14,8 @@
 ### Built With
 
 * [numpy](https://numpy.org)
+* [numpy-quaternion](https://pypi.org/project/numpy-quaternion/)
+* [matplotlib](https://matplotlib.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
