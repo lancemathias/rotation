@@ -3,9 +3,12 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 3D Rotation Visualizer
 
-3D visualization of an equatorial mounted telescope tracking a moving star. Provides visualization for both polar-aligned equatorial mounts and misaligned equatorial mounts, along with plot of the required movement to stay on target.
+Visualization of how equatorial and alt-az telescope mounts work to track stars in the sky, showing equatorial and declination adjustment over time, demonstrating how either tracking schema can be used to track any motion over a 3D ball.  
+Also uses some nifty quaternion math.
+
+![tracker_animation](https://github.com/lancemathias/rotation/raw/main/images/tracking.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -52,9 +55,8 @@ Requires pipenv to install dependencies.
 
 The cells in the Jupyter notebook have functions useful for visualizing star position and tracker deviation over time.
 The coordinates of the star in question or the alignment of the tracker can be edited in their respective cells.
-Some cells create Matplotlib animations in the Jupyter notebook, such as the one below:
-
-![tracker_animation](https://github.com/lancemathias/rotation/raw/main/images/tracking.gif)
+Some cells create Matplotlib animations in the Jupyter notebook, which can be saved as `.gif`s.  
+Also provides plot of the declination axis over time, which tells us how far we are from equatorial tracking.  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
