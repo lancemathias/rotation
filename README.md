@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 3D Rotation Visualizer
 
-Visualization of how equatorial and alt-az telescope mounts work to track stars in the sky, showing equatorial and declination adjustment over time, demonstrating how either tracking schema can be used to track any motion over a 3D ball.  
+Visualization of how equatorial and alt-az telescope mounts work to track stars in the sky, showing equatorial and declination adjustment over time, demonstrating how either tracking schema can be used to track any motion over a 3D ball. Below is a visualization of how a tracker has to move when its axis of rotation is not aligned with that of the star.  
 Also uses some nifty quaternion math.
 
 ![tracker_animation](https://github.com/lancemathias/rotation/raw/main/images/tracking.gif)
